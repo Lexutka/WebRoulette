@@ -1,0 +1,125 @@
+* {
+    text-decoration: none; 
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #98cb32;
+    padding: 10px 20px;
+    font-size: 20px;
+    vertical-align: middle;
+    display:flex;
+    align-items:baseline;
+    position: relative;
+}
+
+#home-page-btn {
+    font-weight: bold;
+    font-size: 30px;
+    color: #6532CB;
+    text-decoration: underline 5px;
+}
+
+#new-post-btn {
+    border-radius: 5px;
+    border-style: outset;
+    background-color: #CB6532;
+    padding: 3px;
+}
+
+nav a {
+    margin-right: 13px;
+}
+
+.auth-btn {
+    text-align: right;
+    border-bottom: 3px solid black;
+}
+
+.auth-btn1 {
+    text-align: right;
+    border-bottom: 3px solid black;
+    margin-left: -14px;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+table {
+    display: inline-block;
+}
+
+[href]:visited {
+    color: initial;
+}
+
+#last_roll {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+#roulette-btn {
+    background-color: #CB6532;
+    border-radius: 4px;
+    border: 3px outset black;
+    height: auto;
+    width: auto;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#forget-pass-btn {
+    text-decoration: underline;
+}
+
+.login-rel-btn {
+    background-color: #CB6532;
+    height: auto;
+    padding: 10px 10px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+}
+
+.login-rel-btn a{
+    border-radius: 4px;
+    border: 3px black solid;
+    padding: 3px;
+}
+
+#change-pass {
+    margin: 20px 25%;
+    text-align: center;
+}
+
+#change-pass ul {
+    text-align: justify;
+}
+
+#cab-options {
+    position: absolute;
+    right: 0px;
+    float: left;
+    background-color: #CB6532;
+    height: 100%;
+    width: auto;
+    padding: 20px 30px;
+    margin: 0px auto;
+}
+
+#cab-options h2,
+#cab-options h3 {
+    text-align: center;
+}
+
+#cab-options p {
+    text-align: center;
+    margin: 10px auto;
+    border: 3px solid black;
+    border-radius: 4px;
+}
