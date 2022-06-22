@@ -60,7 +60,7 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
-Casino/secret_key.py
+Casino/Casino/secret_key.py
 
 # Flask stuff:
 instance/
